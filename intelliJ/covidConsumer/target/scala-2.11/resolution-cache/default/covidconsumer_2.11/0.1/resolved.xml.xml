@@ -4,7 +4,7 @@
 		module="covidconsumer_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20200427232337"
+		publication="20200429165224"
 	>
 		<description>
 		covidConsumer
@@ -36,6 +36,10 @@
 		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="2.4.4" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-streaming_2.11" rev="2.4.4" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-streaming-kafka-0-10_2.11" rev="2.4.4" conf="compile->default(compile)"/>
+		<dependency org="org.apache.kafka" name="kafka-clients" rev="2.3.1" conf="compile->default(compile)"/>
+		<dependency org="org.apache.kafka" name="kafka-streams" rev="2.4.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.logging.log4j" name="log4j-core" rev="2.12.1" conf="compile->default(compile)"/>
+		<dependency org="org.apache.kafka" name="kafka_2.11" rev="2.4.1" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-sql-kafka-0-10_2.11" rev="2.4.4" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
